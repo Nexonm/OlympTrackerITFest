@@ -1,0 +1,30 @@
+<resources>
+    <!-- MAIN APP NAME -->
+    <string name="app_name">OlympTracker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Olympiad Tracker</string>
+    <string name="nav_header_subtitle">creator: nikita96max@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- labels for fragments -->
+    <string name="menu_main">Карта</string>
+    <string name="menu_map">Карта</string>
+    <string name="menu_olympians">Спортсмены</string>
+    <string name="menu_my_cards">Мои карточки</string>
+    <string name="menu_favourites">Избранное</string>
+    <string name="add_new_olympians">Add new olympians</string>
+
+    <!-- extra strings -->
+    <string name="bt_escape">Отменить</string>
+    <string name="bt_save">Сохранить</string>
+    <string name="main_list_name">Имя</string>
+    <string name="ll_main_sport_name">Название спорта</string>
+    <string name="ll_main_year_of_birth">ГОД рождения</string>
+    <string name="ll_main_medals">Число золотых серебряных бронзовых медалей, разделённых пробелом. Если 0 писать:0 0 0</string>
+    <string name="ll_main_extra_info">Доп. информация</string>
+    <string name="ll_main_medals_input">Медали</string>
+    <string name="ll_main_error_massage">проверьте корректность введённых данных</string>
+</resources>

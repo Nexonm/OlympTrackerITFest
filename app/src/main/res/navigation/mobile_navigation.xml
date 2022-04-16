@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_main">
+
+    <fragment
+        android:id="@+id/nav_olympians"
+        android:name="neoxs.olymptracker.presentation.olympians.OlympiansList"
+        android:label="@string/menu_my_cards"
+        tools:layout="@layout/fragment_main_map" />
+
+    <fragment
+        android:id="@+id/nav_main"
+        android:name="neoxs.olymptracker.presentation.mainmap.MapFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_main_map" />
+
+    <fragment
+        android:id="@+id/nav_olympians_parse"
+        android:name="neoxs.olymptracker.presentation.olympiansparse.OlympiansParse"
+        android:label="@string/menu_olympians"
+        tools:layout="@layout/fragment_main_map" />
+
+</navigation>
